@@ -291,12 +291,9 @@ function drawLevel(lvl) {
         ctx.beginPath();
         ctx.moveTo(250,100);ctx.lineTo(450,100);ctx.lineTo(450,150);ctx.lineTo(550,150);ctx.lineTo(550,100);ctx.lineTo(750,100);
         ctx.lineTo(750,300);ctx.lineTo(850,300);ctx.lineTo(850,400);ctx.lineTo(750,400);ctx.lineTo(750,600);ctx.lineTo(550,600);
-        ctx.lineTo(550,550);ctx.lineTo(450,550);ctx.lineTo(450,600);ctx.lineTo(250,600);
-        ctx.closePath();ctx.stroke();
-        ctx.beginPath();
+        ctx.lineTo(550,550);ctx.lineTo(450,550);ctx.lineTo(450,600);ctx.lineTo(250,600);ctx.lineTo(250,100);
         ctx.moveTo(350,150);ctx.lineTo(400,150);ctx.lineTo(400,250);ctx.lineTo(300,250);ctx.lineTo(300,200);ctx.lineTo(350,200);
-        ctx.closePath();ctx.stroke();
-        ctx.beginPath();
+        ctx.lineTo(350,150);
         ctx.rect(300,300,100,100);ctx.rect(300,450,100,100);ctx.rect(450,200,100,300);
         ctx.rect(600,150,100,100);ctx.rect(600,300,100,100);ctx.rect(600,450,100,100);
         ctx.stroke();
@@ -334,12 +331,10 @@ function drawLevel(lvl) {
         ctx.moveTo(100,100);ctx.lineTo(200,100);ctx.lineTo(200,200);ctx.lineTo(300,200);ctx.lineTo(300,100);ctx.lineTo(600,100);
         ctx.lineTo(600,400);ctx.lineTo(700,400);ctx.lineTo(700,100);ctx.lineTo(1000,100);ctx.lineTo(1000,400);ctx.lineTo(900,400);
         ctx.lineTo(900,200);ctx.lineTo(800,200);ctx.lineTo(800,500);ctx.lineTo(1000,500);ctx.lineTo(1000,600);ctx.lineTo(700,600);
-        ctx.lineTo(700,500);ctx.lineTo(400,500);ctx.lineTo(400,600);ctx.lineTo(100,600);
-        ctx.closePath();ctx.stroke();
-        ctx.beginPath();
+        ctx.lineTo(700,500);ctx.lineTo(400,500);ctx.lineTo(400,600);ctx.lineTo(100,600);ctx.lineTo(100,100);
         ctx.moveTo(200,300);ctx.lineTo(400,300);ctx.lineTo(400,200);ctx.lineTo(500,200);ctx.lineTo(500,400);ctx.lineTo(300,400);
-        ctx.lineTo(300,500);ctx.lineTo(200,500);
-        ctx.closePath();ctx.stroke();
+        ctx.lineTo(300,500);ctx.lineTo(200,500);ctx.lineTo(200,300);
+        ctx.stroke();
     }
     if(lvl == 9) {
         if(lvlStart) {
@@ -550,13 +545,10 @@ function drawLevel(lvl) {
         ctx.moveTo(200,100);ctx.lineTo(250,100);ctx.lineTo(250,50);ctx.lineTo(300,50);ctx.lineTo(300,150);ctx.lineTo(950,150);
         ctx.lineTo(950,200);ctx.lineTo(850,200);ctx.lineTo(850,650);ctx.lineTo(800,650);ctx.lineTo(800,550);ctx.lineTo(500,550);
         ctx.lineTo(500,650);ctx.lineTo(450,650);ctx.lineTo(450,550);ctx.lineTo(150,550);ctx.lineTo(150,500);ctx.lineTo(250,500);
-        ctx.lineTo(250,150);ctx.lineTo(200,150);
-        ctx.closePath();ctx.stroke();
-        ctx.beginPath();
+        ctx.lineTo(250,150);ctx.lineTo(200,150);ctx.lineTo(200,100);
         ctx.moveTo(300,200);ctx.lineTo(450,200);ctx.lineTo(450,250);ctx.lineTo(350,250);ctx.lineTo(350,300);ctx.lineTo(450,300);
         ctx.lineTo(450,400);ctx.lineTo(350,400);ctx.lineTo(350,450);ctx.lineTo(450,450);ctx.lineTo(450,500);ctx.lineTo(300,500);
-        ctx.closePath();ctx.stroke();
-        ctx.beginPath();
+        ctx.lineTo(300,200);
         ctx.rect(500,200,300,50);ctx.rect(500,300,300,100);ctx.rect(500,450,300,50);
         ctx.stroke();
     }
@@ -623,25 +615,21 @@ function drawLevel(lvl) {
         fill("white");
         ctx.beginPath();
         ctx.moveTo(400,200);ctx.lineTo(450,200);ctx.lineTo(450,250);ctx.lineTo(500,250);ctx.lineTo(500,300);ctx.lineTo(400,300);
-        ctx.closePath();ctx.stroke();
-        ctx.beginPath();
+        ctx.lineTo(400,200);
         ctx.moveTo(550,300);ctx.lineTo(600,300);ctx.lineTo(600,350);ctx.lineTo(650,350);ctx.lineTo(650,400);ctx.lineTo(550,400);
-        ctx.closePath();ctx.stroke();
-        ctx.beginPath();
+        ctx.lineTo(550,300);
         ctx.moveTo(700,200);ctx.lineTo(750,200);ctx.lineTo(750,250);ctx.lineTo(800,250);ctx.lineTo(800,300);ctx.lineTo(700,300);
-        ctx.closePath();ctx.stroke();
-        ctx.beginPath();
+        ctx.lineTo(700,200);
         ctx.moveTo(850,300);ctx.lineTo(900,300);ctx.lineTo(900,350);ctx.lineTo(950,350);ctx.lineTo(950,400);ctx.lineTo(850,400);
-        ctx.closePath();ctx.stroke();
-        ctx.beginPath();
+        ctx.lineTo(850,300);
         ctx.moveTo(50,150);ctx.lineTo(300,150);ctx.lineTo(300,400);ctx.lineTo(350,400);ctx.lineTo(350,150);ctx.lineTo(550,150);
         ctx.lineTo(550,250);ctx.lineTo(650,250);ctx.lineTo(650,150);ctx.lineTo(850,150);ctx.lineTo(850,250);ctx.lineTo(950,250);
         ctx.lineTo(950,150);ctx.lineTo(1000,150);ctx.lineTo(1000,450);ctx.lineTo(1050,450);ctx.lineTo(1050,550);ctx.lineTo(950,550);
         ctx.lineTo(950,500);ctx.lineTo(900,500);ctx.lineTo(900,450);ctx.lineTo(800,450);ctx.lineTo(800,400);ctx.lineTo(750,400);
         ctx.lineTo(750,350);ctx.lineTo(700,350);ctx.lineTo(700,450);ctx.lineTo(500,450);ctx.lineTo(500,400);ctx.lineTo(450,400);
         ctx.lineTo(450,350);ctx.lineTo(400,350);ctx.lineTo(400,450);ctx.lineTo(250,450);ctx.lineTo(250,200);ctx.lineTo(200,200);
-        ctx.lineTo(200,250);ctx.lineTo(50,250);
-        ctx.closePath();ctx.stroke();
+        ctx.lineTo(200,250);ctx.lineTo(50,250);ctx.lineTo(50,150);
+        ctx.stroke();
     }
     if(lvl == 20) {
         if(lvlStart) {
